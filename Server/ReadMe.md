@@ -9,7 +9,7 @@ This Fullstack project, built with the MERN stack (MongoDB, Express.js, React.js
 The project aims to create a user-friendly platform for both clients and the admin:
 
 Clients can browse the business's portfolio, register as new users to purchase products, schedule appointments, and contact the business owner across different platforms.
-Admin users can manage products (create, edit, and delete), monitor user activity, and remove users when necessary.
+Admin users can manage products and gallery (create, edit, and delete), monitor user activity, and remove users when necessary.
 The back-end server is built using JavaScript with the Express framework to handle HTTP requests via various middleware.
 
 ### Front-end Dependencies
@@ -75,6 +75,12 @@ MONGODB_SERVER_URI_DEV= "mongodb+srv://guyperetz1990:xFCbNBvoMTz82bxm@cluster1.6
 CLOUDINARY_CLOUD_NAME=drvvjiatz
 CLOUDINARY_API_KEY= 116954438974699
 CLOUDINARY_API_SECRET= vQp_YUYyVjD8xIwh5yI_nYqDo4k
+
+Create an .env file in the Front-end directory to store sensitive data. It should contain:
+VITE_EMAILJS_SERVICE_ID="service_bm3fnlr"
+VITE_EMAILJS_TEMPLATE_ID="template_zgpo668"
+VITE_EMAILJS_USER_ID="tfSO1b-QK1B1wnvF_"
+
 
 ## Key Features
 
